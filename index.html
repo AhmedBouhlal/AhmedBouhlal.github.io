@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmed Bouhlal — AI & Hardware Innovator</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <div id="particles-js"></div>
+
+  <!-- CV Preview -->
+  <div class="cv-preview" id="cvPreview">
+    <iframe src="cv/Ahmed_BOUHLAL_Resume.pdf" frameborder="0"></iframe>
+  </div>
+
+  <div class="overlay" id="overlay" onclick="closeModal()"></div>
+  <div class="modal" id="skillModal">
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <pre id="skillPreview" class="terminal"></pre>
+  </div>
+
+  <header>
+    <div class="navbar">
+      <div class="container">
+        <h1 class="logo">Ahmed Bouhlal</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="btn cv-hover" href="cv/Ahmed_BOUHLAL_Resume.pdf" target="_blank">CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="hero-advanced">
+        <div id="tsparticles"></div>
+        <div class="container">
+            <h2 class="glow-text">AI Engineer • Embedded Systems Developer • Tool Architect</h2>
+            <p class="sub-glow">Blending intelligence and hardware to shape the future</p>
+        </div>
+        <div class="hero-glow"></div>
+    </section>
+
+  </header>
+
+  <main>
+    <section id="about" class="section about-future">
+        <div class="container">
+            <h2>✨ About Me</h2>
+            <div class="about-grid">
+            <p class="about-text">
+                I'm <strong>Ahmed Bouhlal</strong>, an AI & Hardware Innovator blending machine intelligence and embedded systems into cutting-edge solutions.
+                I self-learn, I build, and I iterate with purpose.
+            </p>
+            <p class="about-text">
+                At <strong>EST Tétouan</strong>, I study Artificial Intelligence while pushing boundaries beyond the classroom — through real-time tools,
+                automation systems, and futuristic projects that challenge the norm.
+            </p>
+            <p class="about-text">
+                I believe the best tools think with you. My mission is to create those tools — fast, adaptive, and made for the future.
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>🔧 Projects</h2>
+            <div class="projects-vertical">
+            <div class="project-card">
+                <h3>AI Code Validator</h3>
+                <p>Detects bugs and aligns code with project goals using LLaMA 3.</p>
+                <a href="https://github.com/AhmedBouhlal/AI_Project_Validator" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>SmartSchool System</h3>
+                <p>AI dashboard for student progress, drone monitoring & smart grading.</p>
+                <a href="https://github.com/AhmedBouhlal/SmartSchool" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Assistant</h3>
+                <p>Modular local assistant with 40+ CLI skills and LLaMA integration.</p>
+                <a href="https://github.com/AhmedBouhlal/AI_Assistant" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>2.5D Multiplayer Engine</h3>
+                <p>Custom game engine with blueprint-based design and multiplayer support.</p>
+                <a href="https://github.com/AhmedBouhlal" target="_blank">More Projects</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Include Skills section (unchanged) -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>🧠 Skills</h2>
+        <ul class="skills-grid" id="skillsList">
+            <li data-skill="bash">Bash</li>
+            <li data-skill="python">Python</li>
+            <li data-skill="verilog">Verilog</li>
+            <li data-skill="c">C</li>
+            <li data-skill="html">HTML/CSS</li>
+            <li data-skill="js">JavaScript</li>
+            <li data-skill="pytorch">PyTorch</li>
+            <li data-skill="opencv">OpenCV</li>
+            <li data-skill="transformers">Transformers</li>
+            <li data-skill="llama">LLaMA</li>
+            <li data-skill="sklearn">Scikit-learn</li>
+            <li data-skill="pandas">Pandas</li>
+            <li data-skill="matplotlib">Matplotlib</li>
+            <li data-skill="flask">Flask</li>
+            <li data-skill="sqlalchemy">SQLAlchemy</li>
+            <li data-skill="jupyter">Jupyter</li>
+            <li data-skill="linux">Linux (Pop!_OS)</li>
+            <li data-skill="git">Git</li>
+            <li data-skill="esp32">ESP32</li>
+            <li data-skill="raspberrypi">Raspberry Pi</li>
+            <li data-skill="arduino">Arduino</li>
+            <li data-skill="game">Custom 2.5D Game Engines</li>
+            <li data-skill="shell">Shell Scripting</li>
+            <li data-skill="assistant">AI Assistant Dev (LLaMA 3)</li>
+            <li data-skill="automation">Smart Automation Pipelines</li>
+        </ul>
+      </div>
+    </section>
+    <section id="vision" class="section vision-futuristic">
+        <div class="container">
+            <h2>🚀 Vision</h2>
+            <div class="vision-core">
+            <p class="vision-statement">To engineer a future where machines don't just compute — they understand, adapt, and co-create with humanity.</p>
+            <ul class="vision-points">
+                <li><span>🤖</span> AI systems are deeply integrated with real-world hardware — fast, reliable, explainable.</li>
+                <li><span>🧠</span> Every tool is self-evolving — modular, intelligent, and scalable beyond today's limits.</li>
+                <li><span>🌍</span> Innovation is decentralized — powered by open-source, ethics, and deep purpose.</li>
+                <li><span>🛰️</span> From classroom drones to autonomous medical agents — the systems I build shape reality itself.</li>
+            </ul>
+            <p class="vision-tagline">The future builds itself — I’m just writing the blueprint.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="section contact-section">
+    <div class="container">
+        <h2>📧 Contact Me</h2>
+        <div class="contact-grid">
+        <div class="contact-item">
+            <span>📩 Email:</span>
+            <a href="mailto:bouhlal.den@gmail.com">bouhlal.den@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <span>🐙 GitHub:</span>
+            <a href="https://github.com/AhmedBouhlal" target="_blank">AhmedBouhlal</a>
+        </div>
+        <div class="contact-item">
+            <span>📞 Phone:</span>
+            <a href="tel:+212612345678">+212 6 35 28 18 96</a>
+        </div>
+        <div class="contact-item">
+            <span>💼 LinkedIn:</span>
+            <a href="https://www.linkedin.com/in/ahmedbouhlal" target="_blank">AhmedBouhlal</a>
+        </div>
+        <div class="contact-item">
+            <span>📍 Location:</span>
+            <span>Tétouan, Morocco</span>
+        </div>
+        <div class="contact-item livechat">
+            <span>💬 Live Chat:</span>
+            <span>Coming soon...</span>
+        </div>
+        </div>
+    </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Ahmed Bouhlal. Designed for AI and Hardware Innovation.
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
